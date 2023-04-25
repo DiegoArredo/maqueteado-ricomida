@@ -48,3 +48,14 @@ p {
 .ingredientes ul li{
     margin-bottom: 5px;
 }
+
+/* FOOTER  */
+
+footer section.newsletter {
+    background-color: #DC3545;
+
+}
+
+footer section.newsletter {
+    font-size: 30px;
+}
