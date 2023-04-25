@@ -1,0 +1,50 @@
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Lobster', cursive; */
+
+*{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #373A3C;
+    /* border: dotted purple 1px; */
+}
+
+p {
+    line-height: 30px;
+}
+
+/* Brand Font  */
+.brand {
+    font-family: "Lobster", cursive;
+}
+
+/* HEADER  */
+
+.navbar-brand {
+    font-size: 37px;
+}
+
+.receta-p h5{
+    font-size: 16px;
+}
+
+.receta-p p{
+    font-size: 13px;
+}
+
+
+.carousel-item div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.carousel-item div img{
+    width: 20vw;
+}
+
+/* MAIN INGREDIENTES */
+
+.ingredientes ul li{
+    margin-bottom: 5px;
+}
