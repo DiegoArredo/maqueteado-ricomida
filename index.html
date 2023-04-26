@@ -35,18 +35,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-md-auto pe-md-5 me-md-3">
-                      <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Recetas</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -61,8 +61,17 @@
                 <hr class="col-12">
                 <h5 class="fw-bold text-center text-md-start col-12">110 MIN / 6 A 8 PORCIONES</h5>
                 <div class="col row row-cols-2 justify-content-evenly justify-content-md-start">
-                    <p class="col-5 px-0 col-md-4 me-md-4 btn border align-self-center">Enviar por correo</p>
-                    <p class="col-5 px-0 col-md-4 btn border align align-self-center">Añadir a favoritos</p>
+                    <p id="enviarCorreo"
+                        class="btn btn-outline-light text-dark px-0 col-md-4 me-md-4 btn border align-self-center"
+                        data-bs-toggle="tooltip" 
+                        data-bs-title="Presiona para enviar a tu correo"
+                        data-bs-placement="bottom">
+                        Enviar por correo</p>
+                    <p class="btn btn-outline-light text-dark col-5 px-0 col-md-4 btn border align align-self-center"
+                        data-bs-toggle="tooltip" 
+                        data-bs-title="Agrega esta receta a tus favoritos"
+                        data-bs-placement="right">
+                        Añadir a favoritos</p>
                 </div>
             </div>
         </section>
@@ -97,8 +106,8 @@
         <div class="row row-cols-1 row-cols-md-2 mb-0 mb-md-5">
 
             <section class="ingredientes col">
-                <h6 class="fw-bold mb-4 my-5">INGREDIENTES</h6>
-                <h6 class="my-3">Masa</h6>
+                <h6 class="fw-bold mb-4 my-5 tituloRojo">INGREDIENTES</h6>
+                <p class="my-3">Masa</p>
                 <ul>
                     <li>20 gr de levadura seca instantánea</li>
                     <li>1 cucharadita de azúcar</li>
@@ -109,7 +118,7 @@
                     <li>2 cucharaditas de sal</li>
                     <li>625 gr harina</li>
                 </ul>
-                <h6 class="my-3">Salsa</h6>
+                <p class="my-3">Salsa</p>
                 <ul>
                     <li>5 cucharadas de aceite de oliva</li>
                     <li>½ cebolla picada en cubos finos</li>
@@ -119,7 +128,7 @@
                     <li>2 tarro de tomate en cubos al natural </li>
                     <li>2 cucharaditas de azúcar</li>
                 </ul>
-                <h6 class="my-3">Relleno</h6>
+                <p class="my-3">Relleno</p>
                 <ul>
                     <li>½ cebolla, en cubos</li>
                     <li>500 gr hojas de espinacas picadas</li>
@@ -130,7 +139,7 @@
 
             </section>
             <section class="preparacion col">
-                <h6 class="fw-bold my-5">PREPARACION</h6>
+                <h6 class="fw-bold my-5 tituloRojo">PREPARACION</h6>
                 <p>1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar
                     2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y
                     agregar
@@ -215,13 +224,16 @@
     </footer>
 
 
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
